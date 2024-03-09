@@ -1,0 +1,27 @@
+[user]
+  email = {{ .email }}
+  name = Ivan Gavrilov
+[color]
+  ui = auto
+[core]
+  editor = nvim
+  pager = delta
+[init]
+  defaultbranch = main
+[pull]
+  rebase = false
+[pager]
+  diff = delta
+  log = delta
+  reflog = delta
+  show = delta
+[delta]
+  line-numbers = true
+  navigate = true
+  light = false
+[interactive]
+  diffFilter = delta --color-only
+[merge]
+  conflictstyle = diff3
+[diff]
+  colorMoved = default

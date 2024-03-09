@@ -1,0 +1,111 @@
+run:
+  tests: true
+  allow-parallel-runners: true
+  timeout: "1m"
+
+linters:
+  disable-all: true
+  enable:
+    - gosimple
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - typecheck
+    - unused
+    - bodyclose
+    - containedctx
+    - contextcheck
+    - decorder
+    - dupl
+    - durationcheck
+    - errname
+    - errorlint
+    - exportloopref
+    - forcetypeassert
+    - funlen
+    - gci
+    - gocognit
+    - goconst
+    - gocritic
+    - goerr113
+    - gofumpt
+    - gosec
+    - grouper
+    - misspell
+    - nestif
+    - nilerr
+    - nilnil
+    - noctx
+    - nosprintfhostport
+    - paralleltest
+    - prealloc
+    - revive
+    - sqlclosecheck
+    - tenv
+    - unconvert
+    - unparam
+    - wastedassign
+    - wsl
+
+linters-settings:
+  goconst:
+    min-len: 1
+  govet:
+    enable-all: true
+  wsl:
+    allow-trailing-comment: true
+  decorder:
+    disable-dec-order-check: false
+    disable-init-func-first-check: false
+    disable-dec-num-check: true
+  gocritic:
+    enabled-tags:
+      - performance
+      - diagnostic
+      - style
+      - opinionated
+    disabled-tags:
+      - experimental
+    enabled-checks:
+      - httpNoBody
+      - regexpSimplify
+    disabled-checks:
+      - hugeParam
+  gocognit:
+    min-complexity: 20
+  funlen:
+    lines: 80
+    statements: -1
+  revive:
+    ignore-generated-header: true
+    severity: warning
+    rules:
+      - name: datarace
+      - name: function-result-limit
+        arguments: [2]
+      - name: line-length-limit
+        arguments: [120]
+      - name: early-return
+      - name: context-as-argument
+      - name: exported
+        severity: warning
+        disabled: false
+        arguments:
+          - "checkPrivateReceivers"
+          - "sayRepetitiveInsteadOfStutters"
+
+issues:
+  exclude-rules:
+    - linters:
+        - paralleltest
+      text: "does not use range value in test"
+    - path: _test\.go
+      linters:
+        - goerr113
+        - funlen
+    - path: _test\.go
+      text: "fieldalignment:"
+      linters:
+        - govet
+  exclude-use-default: false
