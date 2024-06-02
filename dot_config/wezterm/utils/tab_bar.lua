@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 
-function tab_title(tab)
+local function tab_title(tab)
 	local pane_title = tab.active_pane.title
 	local title = tab.active_pane.user_vars.panetitle
 
