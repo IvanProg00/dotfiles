@@ -1,0 +1,4 @@
+dialect = "us"
+auto_sync = true
+update_check = true
+sync_frequency = "5m"
