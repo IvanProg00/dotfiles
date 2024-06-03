@@ -13,7 +13,7 @@ config.window_padding = colors.window_padding
 config.colors = colors.colors
 
 --- Fonts ---
-config.font_size = 11.0
+config.font_size = 10.5
 
 --- Keys ---
 local keys = require("utils/keys")
