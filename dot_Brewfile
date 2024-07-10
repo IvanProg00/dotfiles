@@ -1,5 +1,6 @@
 brew "atuin"
 brew "bat"
+brew "buf"
 brew "chezmoi"
 brew "exa"
 brew "fd"
