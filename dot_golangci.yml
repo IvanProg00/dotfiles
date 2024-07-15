@@ -28,7 +28,7 @@ linters:
     - gocognit
     - goconst
     - gocritic
-    - goerr113
+    - err113
     - gofumpt
     - gosec
     - grouper
@@ -67,9 +67,6 @@ linters-settings:
       - opinionated
     disabled-tags:
       - experimental
-    enabled-checks:
-      - httpNoBody
-      - regexpSimplify
     disabled-checks:
       - hugeParam
   gocognit:
