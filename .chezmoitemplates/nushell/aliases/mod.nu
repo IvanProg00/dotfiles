@@ -1,4 +1,4 @@
-export use "exa.nu" *
+export use "eza.nu" *
 export use "kubectl.nu" *
 export use "lazygit.nu" *
 export use "terraform.nu" *
