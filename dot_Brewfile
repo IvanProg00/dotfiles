@@ -1,3 +1,5 @@
+tap "hashicorp/tap"
+
 brew "atuin"
 brew "bat"
 brew "buf"
@@ -19,7 +21,8 @@ brew "node"
 brew "nushell"
 brew "protobuf"
 brew "ripgrep"
-brew "terraform"
+brew "starship"
+brew "hashicorp/tap/terraform"
 brew "zellij"
 brew "zoxide"
 
