@@ -56,7 +56,6 @@ $env.config = {
         vi_insert: block
         vi_normal: underscore
     }
-    use_grid_icons: true
     footer_mode: "25"
     float_precision: 3
     buffer_editor: ""
