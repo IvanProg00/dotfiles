@@ -56,7 +56,7 @@ $env.config = {
         vi_insert: block
         vi_normal: underscore
     }
-    footer_mode: "25"
+    footer_mode: auto
     float_precision: 3
     buffer_editor: ""
     use_ansi_coloring: true
