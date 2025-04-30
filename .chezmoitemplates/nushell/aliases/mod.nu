@@ -1,8 +1,9 @@
+export use "ai.nu" *
+export use "cargo.nu" *
 export use "eza.nu" *
 export use "kubectl.nu" *
 export use "lazygit.nu" *
 export use "terraform.nu" *
-export use "cargo.nu" *
 
 # Updates Brew packages and Rust.
 export def full_update [] { 

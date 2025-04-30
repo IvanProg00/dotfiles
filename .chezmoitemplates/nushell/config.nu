@@ -47,10 +47,6 @@ $env.config = {
             completer: null
         }
     }
-    filesize: {
-        metric: true
-        format: "auto"
-    }
     cursor_shape: {
         emacs: line
         vi_insert: block
