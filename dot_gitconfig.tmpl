@@ -10,6 +10,8 @@
   defaultbranch = main
 [pull]
   rebase = false
+[fetch]
+  prune = true
 {{ range $path := .gitIncludeIf -}}
 [includeIf "gitdir:{{ $path }}"]
   path = {{ $path }}.gitconfig
