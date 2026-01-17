@@ -4,6 +4,10 @@ set fish_greeting ""
 
 fish_add_path /opt/homebrew/opt/openjdk/bin
 
+fish_add_path ~/.cargo/bin
+
+fish_add_path /Users/ivanprog00/.antigravity/antigravity/bin
+
 # Activate Shell tools
 
 atuin init fish | source
