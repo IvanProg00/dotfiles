@@ -1,0 +1,51 @@
+modelRoles:
+  default: openai-codex/gpt-6.1-sol:medium
+  web: web/perplexity
+  smol: openai-codex/gpt-6-luna:auto
+symbolPreset: nerd
+composer:
+  shape: claude
+theme:
+  dark: titanium
+  light: light
+setupVersion: 2
+display:
+  showTokenUsage: true
+  showTurnTime: true
+  cacheMissMarker: true
+images:
+  blockImages: true
+github:
+  enabled: true
+bash:
+  allowCompoundCommands: true
+bashInterceptor:
+  enabled: true
+edit:
+  mode: hashline
+memory:
+  backend: mnemopi
+dev:
+  autoqaConsent: granted
+mnemopi:
+  proactiveLinking: true
+  enhancedRecall: true
+  polyphonicRecall: true
+hideThinkingBlock: false
+tui:
+  vimMode: true
+  vimModeDisplay: icon
+  tight: false
+retry:
+  fallbackChains:
+    web:
+      - openai-codex/gpt-6.1-luna
+      - anthropic/claude-haiku-5-5
+      - web/parallel
+      - web/google
+enabledProviders:
+  - claude
+disabledExtensions:
+  - skill:playwright
+personality: pragmatic
+extendedContext: true
