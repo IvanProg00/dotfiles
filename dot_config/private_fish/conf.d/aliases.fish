@@ -6,3 +6,5 @@ alias lg="lazygit"
 alias k="kubectl"
 
 alias tf="terraform"
+
+alias zel="zellij"

@@ -28,7 +28,7 @@ brew "zellij"
 brew "zoxide"
 
 cask "alt-tab"
-cask "dbeaver-community"
+cask "tablepro"
 cask "font-jetbrains-mono"
 cask "google-cloud-sdk"
 cask "notion"
