@@ -1,0 +1,250 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-06-06T11:18:00.730Z",
+      "updatedAt": "2026-08-12T07:48:42.728Z"
+    },
+    "orchestration": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orchestration/SKILL.md",
+      "skillFolderHash": "a7bef59094d3384510bbfbd56990615c0d8c1327",
+      "installedAt": "2026-07-25T11:28:24.839Z",
+      "updatedAt": "2026-11-01T12:14:17.269Z"
+    },
+    "orca-cli": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orca-cli/SKILL.md",
+      "skillFolderHash": "e96accd66bb1e31ca7a859d18013b28be295f97e",
+      "installedAt": "2026-07-25T12:42:54.862Z",
+      "updatedAt": "2026-10-28T08:31:24.752Z"
+    },
+    "AudioIntel Platform": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/teams/hiya-audiointel/skills/audiointel-platform/SKILL.md",
+      "skillFolderHash": "3f94e680c3aeaf088f68395c10f54ae6bda9f3a0",
+      "installedAt": "2026-07-29T07:09:56.475Z",
+      "updatedAt": "2026-07-29T07:09:56.475Z"
+    },
+    "AWS Kubernetes Integration": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/hiya-devtools/skills/aws-kubernetes-integration/SKILL.md",
+      "skillFolderHash": "ffd644e8466b8d3efbb925a0a34bdb51ad3cc37e",
+      "installedAt": "2026-07-29T07:09:56.478Z",
+      "updatedAt": "2026-09-21T07:45:55.060Z"
+    },
+    "Kubernetes Module Upgrade": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/teams/hiya-coretech/skills/k8s-module-upgrade/SKILL.md",
+      "skillFolderHash": "dc81ae0f69c934e2878c00a3c65118232dfab937",
+      "installedAt": "2026-07-29T07:09:56.480Z",
+      "updatedAt": "2026-10-01T08:12:20.903Z"
+    },
+    "Kubernetes Operations": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/teams/hiya-audiointel/skills/kubernetes-ops/SKILL.md",
+      "skillFolderHash": "d7a04340210f1c6869fb35ff028a60a676c18f58",
+      "installedAt": "2026-07-29T07:09:56.481Z",
+      "updatedAt": "2026-09-21T07:45:55.067Z"
+    },
+    "Kubernetes Resources": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/hiya-devtools/skills/kubernetes-resources/SKILL.md",
+      "skillFolderHash": "469b8f4c11c806a553f5959ec9e55d3b04bba74b",
+      "installedAt": "2026-07-29T07:09:56.482Z",
+      "updatedAt": "2026-10-14T11:17:49.701Z"
+    },
+    "computer-use": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/computer-use/SKILL.md",
+      "skillFolderHash": "b59f27370a41225c22127e91da0c91cd2519f217",
+      "installedAt": "2026-08-02T06:11:53.203Z",
+      "updatedAt": "2026-09-23T18:50:03.544Z"
+    },
+    "create-pull-request": {
+      "source": "cline/cline",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cline/cline.git",
+      "skillPath": ".agents/skills/create-pull-request/SKILL.md",
+      "skillFolderHash": "1bad999b8a6ebf8352b072b5d30fe6bd0f5ddc6e",
+      "installedAt": "2026-08-09T17:29:47.572Z",
+      "updatedAt": "2026-08-09T17:29:47.572Z"
+    },
+    "EasyDeploy Debug": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/easydeploy/skills/easydeploy-debug/SKILL.md",
+      "skillFolderHash": "07f5d1109807677f8847c661c7f93046f7714571",
+      "installedAt": "2026-09-18T08:08:15.026Z",
+      "updatedAt": "2026-09-18T08:08:15.026Z"
+    },
+    "EasyDeploy Primer": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/easydeploy/skills/easydeploy-primer/SKILL.md",
+      "skillFolderHash": "96655ff0f3ee8015bc84652d1220e448443b9b9f",
+      "installedAt": "2026-09-18T08:08:15.031Z",
+      "updatedAt": "2026-09-18T08:08:15.031Z"
+    },
+    "EasyDeploy Secrets": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/easydeploy/skills/easydeploy-secrets/SKILL.md",
+      "skillFolderHash": "35673f247f1f4c3d322b0f4fe4bcdc78e4f0d39c",
+      "installedAt": "2026-09-18T08:08:15.033Z",
+      "updatedAt": "2026-09-18T08:08:15.033Z"
+    },
+    "EasyDeploy Setup": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/easydeploy/skills/easydeploy-setup/SKILL.md",
+      "skillFolderHash": "562ae59130eed2713606f61b4cbc7f83f13859be",
+      "installedAt": "2026-09-18T08:08:15.034Z",
+      "updatedAt": "2026-09-18T08:08:15.034Z"
+    },
+    "EasyDeploy Validate": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/easydeploy/skills/easydeploy-validate/SKILL.md",
+      "skillFolderHash": "e2a03b5c9e9a86d06b80a5826455e1e3f1df33c3",
+      "installedAt": "2026-09-18T08:08:15.035Z",
+      "updatedAt": "2026-09-18T08:08:15.035Z"
+    },
+    "EKS Kubernetes Version Upgrade": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/teams/hiya-coretech/skills/eks-k8s-version-upgrade/SKILL.md",
+      "skillFolderHash": "d9b2d3577df55a5b2362f2e5d91c3a70bf748519",
+      "installedAt": "2026-09-21T07:45:55.063Z",
+      "updatedAt": "2026-09-21T07:45:55.063Z"
+    },
+    "kubernetes": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/teams/hiya-data-platform/skills/kubernetes/SKILL.md",
+      "skillFolderHash": "15e682526e2a2e2c1faf4fb9c31d2e57f6b58bd4",
+      "installedAt": "2026-09-21T07:45:55.064Z",
+      "updatedAt": "2026-09-21T07:45:55.064Z"
+    },
+    "OpenTofu Hiya Patterns": {
+      "source": "hiyainc-labs/hiya-claude-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hiyainc-labs/hiya-claude-plugins.git",
+      "skillPath": "plugins/general/hiya-devtools/skills/opentofu-hiya-patterns/SKILL.md",
+      "skillFolderHash": "e6239b6133cc5dcb69bbbb95c8af49669b226f86",
+      "installedAt": "2026-09-21T07:45:55.068Z",
+      "updatedAt": "2026-09-21T07:45:55.068Z"
+    },
+    "archify": {
+      "source": "tt-a1i/archify",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tt-a1i/archify.git",
+      "skillPath": "archify/SKILL.md",
+      "skillFolderHash": "d5fc699feb186e8be4e2d9e86f850a8ea1b6959e",
+      "installedAt": "2026-09-24T07:46:39.591Z",
+      "updatedAt": "2026-10-27T08:52:08.348Z"
+    },
+    "docker-build-strategies": {
+      "source": "docker/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/docker/skills.git",
+      "skillPath": "skills/docker-build-strategies/SKILL.md",
+      "skillFolderHash": "550661626e962557558052ae594b0e16cb076df4",
+      "installedAt": "2026-10-15T14:21:57.618Z",
+      "updatedAt": "2026-10-15T14:21:57.618Z"
+    },
+    "docker-compose-patterns": {
+      "source": "docker/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/docker/skills.git",
+      "skillPath": "skills/docker-compose-patterns/SKILL.md",
+      "skillFolderHash": "d602abc2459830dbc66a8aae7c91d80820584f25",
+      "installedAt": "2026-10-15T14:21:57.620Z",
+      "updatedAt": "2026-10-15T14:21:57.620Z"
+    },
+    "docker-destructive-guardrails": {
+      "source": "docker/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/docker/skills.git",
+      "skillPath": "skills/docker-destructive-guardrails/SKILL.md",
+      "skillFolderHash": "7a2acb5897ea48a3ff3299783574819e61fd24f7",
+      "installedAt": "2026-10-15T14:21:57.620Z",
+      "updatedAt": "2026-10-15T14:21:57.620Z"
+    },
+    "docker-project-foundations": {
+      "source": "docker/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/docker/skills.git",
+      "skillPath": "skills/docker-project-foundations/SKILL.md",
+      "skillFolderHash": "578fa65343962188b00a6ee642e20b1592c25f79",
+      "installedAt": "2026-10-15T14:21:57.621Z",
+      "updatedAt": "2026-10-15T14:21:57.621Z"
+    },
+    "rust-best-practices": {
+      "source": "morganlinton/beautifulrust",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/morganlinton/beautifulrust.git",
+      "skillPath": "skills/rust-best-practices/SKILL.md",
+      "skillFolderHash": "8fdf58bea17c7c569b5650b185469836dbc84692",
+      "installedAt": "2026-10-26T13:12:54.102Z",
+      "updatedAt": "2026-11-01T12:14:21.687Z"
+    },
+    "rust-review": {
+      "source": "morganlinton/beautifulrust",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/morganlinton/beautifulrust.git",
+      "skillPath": "skills/rust-review/SKILL.md",
+      "skillFolderHash": "d2ed162f0a140a08be32fb667222d8de5a4554ac",
+      "installedAt": "2026-10-26T13:12:54.105Z",
+      "updatedAt": "2026-11-01T12:14:24.032Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "droid",
+    "fx",
+    "gemini-cli",
+    "github-copilot",
+    "kilo",
+    "kimi-code-cli",
+    "opencode",
+    "pi",
+    "warp",
+    "zed",
+    "claude-code"
+  ]
+}

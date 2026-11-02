@@ -30,3 +30,10 @@ starship init fish | source
 zoxide init fish | source
 
 set -gx LIBRARY_PATH /opt/homebrew/lib $LIBRARY_PATH
+
+# pnpm
+set -gx PNPM_HOME "/Users/ivanprog00/Library/pnpm"
+if not string match -q -- "$PNPM_HOME/bin" $PATH
+  set -gx PATH "$PNPM_HOME/bin" $PATH
+end
+# pnpm end

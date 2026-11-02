@@ -14,7 +14,7 @@ display:
   showTurnTime: true
   cacheMissMarker: true
 images:
-  blockImages: true
+  blockImages: false
 github:
   enabled: true
 bash:
@@ -39,7 +39,7 @@ tui:
 retry:
   fallbackChains:
     web:
-      - openai-codex/gpt-6.1-luna
+      - openai-codex/gpt-6-luna
       - anthropic/claude-haiku-5-5
       - web/parallel
       - web/google
